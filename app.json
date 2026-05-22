@@ -7,9 +7,11 @@
     "icon": "./assets/images/icon.png",
     "scheme": "fooddeliveryui",
     "userInterfaceStyle": "automatic",
+
     "ios": {
       "icon": "./assets/expo.icon"
     },
+
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
@@ -19,12 +21,8 @@
       },
       "predictiveBackGestureEnabled": false
     },
-    "web": {
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
-    },
+
     "plugins": [
-      "expo-router",
       [
         "expo-splash-screen",
         {
@@ -35,10 +33,6 @@
           }
         }
       ]
-    ],
-    "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
-    }
+    ]
   }
 }
